@@ -12,7 +12,7 @@
       "label": "phpMyAdmin"
     }
   },
-  "postCreateCommand": "sudo chown -R www-data:www-data /var/www/html"
+  "postCreateCommand": ["sudo chown -R www-data:www-data /var/www/html","./replace-url.sh"]
 }
 
 
