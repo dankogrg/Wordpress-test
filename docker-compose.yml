@@ -6,12 +6,13 @@ services:
     command: '--default-authentication-plugin=mysql_native_password'
     volumes:
       - db_data:/var/lib/mysql
+      - ./db-dumps/wordpress.sql:/docker-entrypoint-initdb.d/wordpress.sql
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: ${ROOT_PASSWORD}
       MYSQL_DATABASE: ${DATABASE}
       MYSQL_USER: ${USERNAME}
-      MYSQL_PASSWORD: ${PASSWORD}
+      MYSQL_PASSWORD: ${USER_PASSWORD}
 
   wordpress:
     depends_on:
@@ -23,14 +24,15 @@ services:
     volumes:
       - ./wp-content/themes:/var/www/html/wp-content/themes
       - ./wp-content/uploads:/var/www/html/wp-content/uploads
+      - ./wp-content/mu-plugins:/var/www/html/wp-content/mu-plugins
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: ${USERNAME}
-      WORDPRESS_DB_PASSWORD: ${PASSWORD}
+      WORDPRESS_DB_PASSWORD: ${USER_PASSWORD}
       WORDPRESS_DB_NAME: ${DATABASE}
       WORDPRESS_CONFIG_EXTRA: |
-        define('WP_HOME', '${DEFAULT_HOMEPAGE}');
-        define('WP_SITEURL', '${DEFAULT_HOMEPAGE}');
+        define('WP_HOME', 'https://${CODESPACE_NAME}-80.${GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN}');
+        define('WP_SITEURL', 'https://${CODESPACE_NAME}-80.${GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN}');
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
