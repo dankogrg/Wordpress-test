@@ -22,6 +22,7 @@ services:
       - "80:80"
     restart: always
     volumes:
+      - ./:/var/www/html
       - ./wp-content/themes:/var/www/html/wp-content/themes
       - ./wp-content/uploads:/var/www/html/wp-content/uploads
       - ./wp-content/mu-plugins:/var/www/html/wp-content/mu-plugins
@@ -45,3 +46,4 @@ services:
 
 volumes:
   db_data:
+  wp_data:
