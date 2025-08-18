@@ -48,7 +48,7 @@ const fetchRequest = async (domain) => {
     // Provide immediate feedback to the user.
     output.textContent = `Looking up ${domain}...`;
     
-    const apiUrl = `${window.location.protocol}//${window.location.hostname.replace('-80', '-3000')}/?domain=${domain}`;
+    const apiUrl = `/wp-content/themes/twentytwentyone/whois-proxy.php?domain=${encodeURIComponent(domain)}`;
     await fetch(apiUrl)
         .then((response) => response.json())
         .then((data) => {

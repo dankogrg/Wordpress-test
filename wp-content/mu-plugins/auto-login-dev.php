@@ -12,14 +12,18 @@ if ( defined('WP_ENV') && WP_ENV !== 'development' ) {
 }
 
 add_action('init', function() {
-    if ( is_user_logged_in() ) {
+    // Only auto-login on port 80 (HTTP)
+    if (
+        (isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] != '80') ||
+        is_user_logged_in()
+    ) {
         return;
     }
 
     // Set your development admin username here
-    $username = 'admin';
+    $username = 'danko.grg';
 
-    $user = get_user_by('login', 'danko.grg');
+    $user = get_user_by('login', $username);
     if ( $user ) {
         wp_set_current_user( $user->ID );
         wp_set_auth_cookie( $user->ID );
