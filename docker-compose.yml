@@ -28,6 +28,7 @@ services:
       - ./wp-content/uploads:/var/www/html/wp-content/uploads
       - ./wp-content/mu-plugins:/var/www/html/wp-content/mu-plugins
       - ./certs:/etc/apache2/ssl
+      - ./logs/apache2:/var/log/apache2
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: ${USERNAME}

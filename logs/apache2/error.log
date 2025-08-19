@@ -1,0 +1,123 @@
+[Tue Aug 19 14:28:14.602411 2025] [ssl:warn] [pid 1:tid 1] AH01906: 172.18.0.5:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Aug 19 14:28:14.603610 2025] [ssl:warn] [pid 1:tid 1] AH01909: 172.18.0.5:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Aug 19 14:28:14.873965 2025] [ssl:warn] [pid 1:tid 1] AH01906: 172.18.0.5:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Aug 19 14:28:14.873997 2025] [ssl:warn] [pid 1:tid 1] AH01909: 172.18.0.5:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 19 14:28:14.882568 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.65 (Debian) PHP/8.2.29 OpenSSL/3.5.1 configured -- resuming normal operations
+[Tue Aug 19 14:28:14.882596 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[19-Aug-2025 14:28:30 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:31 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:31 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:31 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:31 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-includes/functions.php:5471) in /var/www/html/wp-admin/upgrade.php on line 76
+[19-Aug-2025 14:28:32 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:32 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:32 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:32 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:32 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:32 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:32 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:32 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:32 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:33 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-includes/functions.php:5471) in /var/www/html/wp-admin/upgrade.php on line 76
+[19-Aug-2025 14:28:34 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:34 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:34 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:34 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:34 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:35 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:38 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:41 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:41 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:41 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:41 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:41 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:41 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:41 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:41 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:41 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:41 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:48 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:48 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:48 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:48 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:48 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:48 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:48 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:48 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:48 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:50 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:50 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:50 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:50 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:50 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:50 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:50 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:50 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:50 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:51 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:51 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:51 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:51 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:51 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:51 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:51 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:51 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:51 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:51 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:51 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:53 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:53 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:53 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:53 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:53 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:53 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:53 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:53 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:53 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:54 UTC] PHP Warning:  Undefined variable $site_domain in /var/www/html/wp-content/mu-plugins/siteurl-redirect.php on line 4
+[19-Aug-2025 14:28:54 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:54 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:54 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:54 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
+[19-Aug-2025 14:28:54 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 717
+[19-Aug-2025 14:28:54 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 728
+[19-Aug-2025 14:28:54 UTC] PHP Warning:  Undefined array key "host" in /var/www/html/wp-includes/canonical.php on line 731
+[19-Aug-2025 14:28:54 UTC] PHP Warning:  Undefined array key "scheme" in /var/www/html/wp-includes/canonical.php on line 752
